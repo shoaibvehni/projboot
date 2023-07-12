@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    
+    --bs-dark-color:#1a1d20 ;
+    --bs-dark-primery:#1C1C1C ;
+    --bs-main-color:#fff ;
+    --bs-primery-color:#c6c6c6 ;
+    --secondary-color:#29a9fd ;
+    --bs-supporting-color:#c850c0 ;
+
+
+}
+h1,h2,h3,h4,h5 {
+    font-family: "Urbanist" , sans-serif ;
+ color: var(--bs-dark-color);
+}
+
+h1 {
+    
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3rem;
+    
+    font-weight: 600;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: optimizeLegibility;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+.hero-video-section {
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+}
+.hero-section .container {
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.bg-main {
+    height: 80vh;
+    position: relative;
+}
+.bg-color {
+    background-color: var(--bs-dark-primery);
+}
+.bg-theme {
+    color: var(--bs-supporting-color);
+    background-image: none !important;
+}
+.nav-link {
+    color: var(--bs-main-color);
+font-weight: bold;
+}
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+.text-light-grey {
+
+
+    color: var(--bs-primery-color);
+}
+ .custom-shape-divider-bottom-1689143416 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689143416 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689143416 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.common-title {
+
+font-size: 2.rem;
+font-weight: 500;
+letter-spacing: 0.01 !important;
+
+}
+
+.common-heading {
+
+margin-bottom: 4.2rem;
+
+
+}
+
+.services-section {
+    padding: 6rem 0 3rem 0 !important;
+    
+
+}
+.icon-span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--secondary-color);
+    color:  var(--bs-main-color);
+}
+
