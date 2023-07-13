@@ -133,3 +133,31 @@ margin-bottom: 4.2rem;
     color:  var(--bs-main-color);
 }
 
+.custom-shape-divider-top-1689238849 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1689238849 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1689238849 .shape-fill {
+    fill: #FFFFFF;
+}
+.contac-section {
+    position: relative;
+}
+.common-heading {
+    padding-top: 6rem;
+}
+.from-section {
+    width: 45%;
+}
